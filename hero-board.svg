@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 760" role="img" aria-labelledby="title desc">
+  <title id="title">Taskorbit project board</title>
+  <desc id="desc">A dark Taskorbit project board with three workflow columns and a launch-readiness progress bar.</desc>
+  <defs>
+    <linearGradient id="accent" x1="120" y1="80" x2="932" y2="708" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9587ff"/>
+      <stop offset=".48" stop-color="#6d9dff"/>
+      <stop offset="1" stop-color="#43e8df"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="305" y1="80" x2="830" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1c2b38"/>
+      <stop offset="1" stop-color="#101a23"/>
+    </linearGradient>
+    <linearGradient id="focusCard" x1="314" y1="268" x2="515" y2="459" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#283355"/>
+      <stop offset="1" stop-color="#172431"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="155%">
+      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#020508" flood-opacity=".42"/>
+    </filter>
+    <filter id="innerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="760" rx="28" fill="#101821"/>
+  <circle cx="820" cy="185" r="230" fill="#5f6cff" fill-opacity=".13" filter="url(#innerGlow)"/>
+  <circle cx="840" cy="625" r="196" fill="#36d8d1" fill-opacity=".08" filter="url(#innerGlow)"/>
+  <rect x="1" y="1" width="1022" height="758" rx="27" fill="none" stroke="#b5d6ec" stroke-opacity=".26" stroke-width="2"/>
+
+  <path d="M28 0h968a28 28 0 0 1 28 28v70H0V28A28 28 0 0 1 28 0Z" fill="#0b121a" fill-opacity=".86"/>
+  <path d="M0 98h1024" stroke="#b5d6ec" stroke-opacity=".14"/>
+  <circle cx="47" cy="49" r="13" fill="url(#accent)"/>
+  <circle cx="47" cy="49" r="6.8" fill="#111923"/>
+  <circle cx="58" cy="39" r="4.8" fill="#f7fbff"/>
+  <text x="76" y="54" fill="#e4f0f5" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Launch operations</text>
+  <rect x="804" y="35" width="148" height="29" rx="14.5" fill="#182632" stroke="#a3c7df" stroke-opacity=".15"/>
+  <circle cx="833" cy="49" r="7" fill="#b7adff"/><circle cx="849" cy="49" r="7" fill="#90e4cb"/><circle cx="865" cy="49" r="7" fill="#ffc9a7"/>
+  <text x="886" y="54" fill="#a9c0cd" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600">+4</text>
+
+  <rect y="98" width="104" height="662" fill="#0d141d" fill-opacity=".72"/>
+  <path d="M104 98v662" stroke="#b5d6ec" stroke-opacity=".12"/>
+  <rect x="35" y="135" width="34" height="34" rx="10" fill="url(#accent)"/>
+  <path d="M46 146h12M46 153h8M46 160h12" stroke="#071217" stroke-width="2" stroke-linecap="round"/>
+  <rect x="37" y="190" width="30" height="30" rx="9" fill="#20313e" stroke="#b5d6ec" stroke-opacity=".14"/>
+  <path d="M45 205h14M52 198v14" stroke="#9fb2be" stroke-width="2" stroke-linecap="round"/>
+  <rect x="37" y="241" width="30" height="30" rx="9" fill="#20313e" stroke="#b5d6ec" stroke-opacity=".14"/>
+  <path d="M44 255h16M44 262h10" stroke="#9fb2be" stroke-width="2" stroke-linecap="round"/>
+  <rect x="37" y="292" width="30" height="30" rx="9" fill="#20313e" stroke="#b5d6ec" stroke-opacity=".14"/>
+  <circle cx="52" cy="307" r="7" fill="none" stroke="#9fb2be" stroke-width="2"/>
+  <circle cx="52" cy="711" r="17" fill="#8df0e5"/>
+  <text x="42" y="715" fill="#11232d" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="800">MA</text>
+
+  <text x="144" y="145" fill="#8fa8b8" font-family="Inter, Arial, sans-serif" font-size="14">Projects / Q3 launch</text>
+  <text x="144" y="178" fill="#eff7fb" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="650">Website refresh</text>
+  <rect x="144" y="207" width="837" height="73" rx="12" fill="#192833" fill-opacity=".83" stroke="#b5d6ec" stroke-opacity=".13"/>
+  <text x="165" y="235" fill="#bdcfd9" font-family="Inter, Arial, sans-serif" font-size="13">Launch readiness</text>
+  <text x="936" y="235" fill="#8cf2e7" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">68%</text>
+  <rect x="165" y="251" width="794" height="7" rx="3.5" fill="#9dbbd0" fill-opacity=".14"/>
+  <rect x="165" y="251" width="540" height="7" rx="3.5" fill="url(#accent)"/>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="144" y="319" fill="#bfd2dd" font-size="14" font-weight="650">In focus</text>
+    <circle cx="362" cy="314" r="12" fill="#243744"/><text x="358" y="319" fill="#9bb3c1" font-size="11" font-weight="700">3</text>
+    <text x="426" y="319" fill="#bfd2dd" font-size="14" font-weight="650">In progress</text>
+    <circle cx="667" cy="314" r="12" fill="#243744"/><text x="663" y="319" fill="#9bb3c1" font-size="11" font-weight="700">2</text>
+    <text x="731" y="319" fill="#bfd2dd" font-size="14" font-weight="650">Ready to ship</text>
+    <circle cx="956" cy="314" r="12" fill="#243744"/><text x="952" y="319" fill="#9bb3c1" font-size="11" font-weight="700">4</text>
+
+    <rect x="144" y="340" width="242" height="207" rx="14" fill="url(#focusCard)" stroke="#9c90ff" stroke-opacity=".62" filter="url(#shadow)"/>
+    <rect x="162" y="359" width="58" height="22" rx="5" fill="#8779ff" fill-opacity=".2"/><text x="174" y="374" fill="#d3ccff" font-size="10" font-weight="700">DESIGN</text>
+    <text x="351" y="376" fill="#93a9b8" font-size="14">•••</text>
+    <text x="162" y="416" fill="#edf7fb" font-size="17" font-weight="650">Refine onboarding</text>
+    <text x="162" y="439" fill="#edf7fb" font-size="17" font-weight="650">flow</text>
+    <text x="162" y="472" fill="#a8bdc8" font-size="12">Make the first session feel obvious.</text>
+    <circle cx="177" cy="517" r="13" fill="#bfacff"/><text x="170" y="521" fill="#20283c" font-size="8" font-weight="800">EL</text>
+    <text x="199" y="522" fill="#a8bdc8" font-size="12">Today</text>
+
+    <rect x="144" y="567" width="242" height="112" rx="14" fill="url(#panel)" stroke="#b5d6ec" stroke-opacity=".15"/>
+    <rect x="162" y="586" width="59" height="22" rx="5" fill="#3ddbd2" fill-opacity=".16"/><text x="174" y="601" fill="#a1f5ef" font-size="10" font-weight="700">CONTENT</text>
+    <text x="162" y="634" fill="#e2eef4" font-size="15" font-weight="600">Review launch narrative</text>
+    <circle cx="177" cy="660" r="12" fill="#93e7c8"/><text x="170" y="664" fill="#1d3530" font-size="8" font-weight="800">DH</text><text x="197" y="664" fill="#a8bdc8" font-size="12">Thu</text>
+
+    <rect x="426" y="340" width="242" height="207" rx="14" fill="url(#panel)" stroke="#b5d6ec" stroke-opacity=".15" filter="url(#shadow)"/>
+    <rect x="444" y="359" width="88" height="22" rx="5" fill="#e6a84e" fill-opacity=".17"/><text x="455" y="374" fill="#ffdb9c" font-size="10" font-weight="700">ENGINEERING</text>
+    <text x="633" y="376" fill="#93a9b8" font-size="14">•••</text>
+    <text x="444" y="416" fill="#edf7fb" font-size="17" font-weight="650">Build conversion</text><text x="444" y="439" fill="#edf7fb" font-size="17" font-weight="650">events</text>
+    <text x="444" y="472" fill="#a8bdc8" font-size="12">Instrument the trial journey.</text>
+    <circle cx="459" cy="517" r="13" fill="#ffc6a4"/><text x="452" y="521" fill="#423129" font-size="8" font-weight="800">KM</text><text x="481" y="522" fill="#a8bdc8" font-size="12">Tomorrow</text>
+
+    <rect x="426" y="567" width="242" height="112" rx="14" fill="url(#panel)" stroke="#b5d6ec" stroke-opacity=".15"/>
+    <rect x="444" y="586" width="67" height="22" rx="5" fill="#bd72ff" fill-opacity=".17"/><text x="455" y="601" fill="#e2bcff" font-size="10" font-weight="700">RESEARCH</text>
+    <text x="444" y="634" fill="#e2eef4" font-size="15" font-weight="600">Interview synthesis</text>
+    <circle cx="459" cy="660" r="12" fill="#9cecf2"/><text x="452" y="664" fill="#1e3338" font-size="8" font-weight="800">ZT</text><text x="479" y="664" fill="#a8bdc8" font-size="12">Fri</text>
+
+    <rect x="708" y="340" width="273" height="207" rx="14" fill="url(#panel)" stroke="#75e5b4" stroke-opacity=".31" filter="url(#shadow)"/>
+    <rect x="726" y="359" width="75" height="22" rx="5" fill="#47d193" fill-opacity=".17"/><text x="737" y="374" fill="#a8f1cd" font-size="10" font-weight="700">COMPLETE</text>
+    <text x="946" y="376" fill="#93a9b8" font-size="14">•••</text>
+    <text x="726" y="416" fill="#edf7fb" font-size="17" font-weight="650">Align launch</text><text x="726" y="439" fill="#edf7fb" font-size="17" font-weight="650">milestones</text>
+    <text x="726" y="472" fill="#a8bdc8" font-size="12">One shared source of truth.</text>
+    <circle cx="741" cy="517" r="13" fill="#90e8bf"/><path d="m735 517 4 4 8-9" fill="none" stroke="#10261d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="765" y="522" fill="#a8bdc8" font-size="12">Approved</text>
+
+    <rect x="708" y="567" width="273" height="112" rx="14" fill="url(#panel)" stroke="#b5d6ec" stroke-opacity=".15"/>
+    <rect x="726" y="586" width="58" height="22" rx="5" fill="#8779ff" fill-opacity=".2"/><text x="738" y="601" fill="#d3ccff" font-size="10" font-weight="700">DESIGN</text>
+    <text x="726" y="634" fill="#e2eef4" font-size="15" font-weight="600">Approve motion system</text>
+    <circle cx="741" cy="660" r="12" fill="#90e8bf"/><path d="m735 660 4 4 8-9" fill="none" stroke="#10261d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="765" y="664" fill="#a8bdc8" font-size="12">Done</text>
+  </g>
+</svg>
